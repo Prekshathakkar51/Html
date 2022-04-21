@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Heading and Paragraph -->
+    <h1>Books to Read</h1>
+    <h2>Books to Read</h2>
+    <h3>Books to Read</h3>
+    <h4>Books to Read</h4>
+    <h5>Books to Read</h5>
+    <h6>Books to Read</h6>
+    <h7>Books to Read</h7>
+    <!-- Disclaimer -->
+    <!-- Use the heading tags causiously as it affects the SEO -->
+    <p>There are a lot of books to read</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus id cumque nulla ab facere amet cum? Odit, error blanditiis natus, repellendus nam quidem debitis amet voluptatibus esse voluptatem, vero harum? Quia eos expedita, amet ex deserunt nobis ullam repellat blanditiis recusandae perspiciatis incidunt quis veritatis.</p>
+
+    <hr>
+    <!-- for horizontal line -->
+
+    <!-- Example of absolute link -->
+    <a href="https://codewithharry.com">Click here to go to Harry's Website</a>
+    <!-- Example of relative link -->
+    <a href="aboutt.html">Go to about</a> 
+<!--tag attribute="value"   -->
+    <!-- there could be more than 1 atrributes -->
+    <!-- we can use single quote and double quote (depends on the content) -->
+
+    <hr>
+
+    <!-- Image tag -->
+    <!-- Example of absolute image -->
+    <img src="https://media.istockphoto.com/photos/camera-capturing-a-forest-picture-id618066222?b=1&k=20&m=618066222&s=170667a&w=0&h=gNvOh61Kb59-EmZA_EAkDW8FptmnndmFgE-bcvO-g5g=" alt="Camera Image">
+    <!-- Example of relative image -->
+    <img src="logo.png" alt="LOGO" width="121px">
+    <!-- to adjust the image size , use width or height attribute , it is highly recommended that u use any of the one attribute so that it can take the other by default and make the image proper -->
+    <!-- it is also more recommended to take the dimensions using CSS  -->
+
+
+    <hr>
+
+    <!-- BOLD ITALIC UNDERLINE -->
+    <b>This is bold</b>
+    <br>
+    <i>This is italic</i>
+    <br>
+    <!-- <br> tag is used to come to the new line , it is a empty tag i.e it is only opened not closed  -->
+    <u>This is underline</u>
+    <u>This is underline2</u>
+
+<!-- big and small -->
+    <big>This is Big</big>
+    <br>
+    <small>This is small</small>
+    <br>
+<!-- subscript and superscript -->
+    <p>CO<sub>2</sub></p>
+    <p>a<sup>2</sup> + bx + c</p>
+
+    <!-- pre tag ; to display text as it is -->
+
+    <pre>
+    #include<stdio.h>
+        long int multiplyNumbers(int n);
+        int main() {
+            int n;
+            printf("Enter a positive integer: ");
+            scanf("%d",&n);
+            printf("Factorial of %d = %ld", n, multiplyNumbers(n));
+            return 0;
+        }
+        
+        long int multiplyNumbers(int n) {
+            if (n>=1)
+                return n*multiplyNumbers(n-1);
+            else
+                return 1;
+        }
+    </pre>
+
+</body>
+</html>
